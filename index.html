@@ -1,121 +1,223 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicolás Simarro Akhdi - Currículum</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Descripción de tu CV" />
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="author" content="Tu Nombre">
+    <title>Tu CV</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </head>
+
 <body>
 
-    <header>
-        <div class="header-content">
-            <h1>Nicolás Simarro Akhdi</h1>
-            <p>Ingeniero Informático</p>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Tu Nombre</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#services">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <img id="profile-picture" src="assets/foto.png" alt="Foto de Nicolás Simarro Akhdi" class="profile-picture">
+    </nav>
+
+    <header class="background-main">
+        <main class="main">
+            <h1 class="main-title">Tu CV es
+                <a href="" class="typewrite" data-period="3000" data-type='[ "Creativo", "Innovador", "Apasionado", "Comprometido" ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h1>
+        </main>
+        <div class="text-center">
+            <a class="main-link btn btn-lg" href="">
+                Ver más
+                <i class="fa fa-chevron-down"></i>
+            </a>
+        </div>
     </header>
 
-    <section id="contacto" class="section">
-        <div class="section-content">
-            <h2>Información de Contacto</h2>
-            <ul>
-                <li>Teléfono: 601289237</li>
-                <li>Correo Electrónico: Nicosima78@gmail.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/nicol%C3%A1s-simarro-akhdi-075110150/" target="_blank">Perfil de LinkedIn</a></li>
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2>Acerca de Mí</h2>
+                <div class="line-shape"></div>
+                <p>
+                    ¡Hola! Soy Nicolas Simarro Akhdi, un apasionado ingeniero informático con más de cinco años de
+                    experiencia en el desarrollo de software y gestión de proyectos. Mi habilidad principal reside en la
+                    programación en varios lenguajes, incluyendo Python y JavaScript, así como en la implementación
+                    efectiva de soluciones tecnológicas innovadoras. He liderado con éxito equipos multidisciplinarios
+                    para entregar proyectos complejos, demostrando habilidades sólidas en comunicación y resolución de
+                    problemas. Mi historial incluye el diseño e implementación de sistemas que han mejorado la
+                    eficiencia operativa y la satisfacción del cliente en un 30%. Poseo una capacidad probada para
+                    adaptarme rápidamente a nuevas tecnologías y estoy comprometido con el aprendizaje continuo para
+                    mantenerme al tanto de las últimas tendencias en desarrollo de software.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia -->
+    <section class="services-class" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experiencia Laboral</h2>
+                    <div class="line-shape"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Agrega tu experiencia laboral aquí -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-box">
+                        <h3 class="text-muted mb-2">Soy un ingeniero informático con más de cinco años de experiencia en
+                            el desarrollo de software y la gestión de proyectos. Mi expertise incluye
+                            el diseño e implementación de soluciones tecnológicas eficientes, así
+                            como la resolución efectiva de problemas complejos. He trabajado en
+                            entornos ágiles, liderando equipos para alcanzar metas y plazos, y he
+                            contribuido al éxito de proyectos clave, destacando mi habilidad para
+                            traducir requerimientos técnicos en soluciones prácticas. Poseo una
+                            sólida comprensión de los lenguajes de programación, con especial
+                            énfasis en Java y Python. Mi historial refleja una dedicación constante
+                            al aprendizaje y la adaptación a las últimas tendencias tecnológicas
+                            para ofrecer soluciones innovadoras y eficaces</h3>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Educación -->
+    <section>
+        <div class="container">
+            <h2 class="portfolio-title">Educación</h2>
+            <div class="line-shape"></div>
+        </div>
+        <div class="container">
+            <!-- Agrega tu historial educativo aquí -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-box">
+                        <h3 class="text-muted mb-2">Escuela Superior de Informatica (ESI) UCLM</h3>
+                        <p class="text-muted mb-2">Grado en ingeniería informática</p>
+                        <p class="text-muted">CompTIA Security</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contacto</h2>
+                    <div class="line-shape"></div>
+                    <p>¡Estoy disponible para oportunidades emocionantes! Contáctame a través del formulario a
+                        continuación.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <form>
+                <!-- Tu formulario de contacto va aquí -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nombre" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Correo Electrónico" id="email"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Teléfono" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Mensaje" id="message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="#">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
             </ul>
+            <p class="text-muted small mb-0">© 2023 Tu Nombre. Todos los derechos reservados.</p>
         </div>
-    </section>
+    </footer>
 
-    <section id="perfil" class="section">
-        <div class="section-content">
-            <h2>Resumen o Perfil Profesional</h2>
-            <p>
-                Soy un profesional altamente motivado con más de cinco años de experiencia en el desarrollo de software y gestión de proyectos.
-                Mi habilidad principal reside en la programación en varios lenguajes, incluyendo Python y JavaScript, así como en la implementación efectiva
-                de soluciones tecnológicas innovadoras. He liderado con éxito equipos multidisciplinarios para entregar proyectos complejos, demostrando
-                habilidades sólidas en comunicación y resolución de problemas. Mi historial incluye el diseño e implementación de sistemas que han mejorado
-                la eficiencia operativa y la satisfacción del cliente en un 30%. Poseo una capacidad probada para adaptarme rápidamente a nuevas
-                tecnologías y estoy comprometido con el aprendizaje continuo para mantenerme al tanto de las últimas tendencias en desarrollo de software.
-            </p>
-        </div>
-    </section>
-
-    <section id="experiencia" class="section">
-        <div class="section-content">
-            <h2>Experiencia Laboral</h2>
-            <p>
-                Soy un ingeniero informático con más de cinco años de experiencia en el desarrollo de software y la gestión de proyectos.
-                Mi expertise incluye el diseño e implementación de soluciones tecnológicas eficientes, así como la resolución efectiva de problemas complejos.
-                He trabajado en entornos ágiles, liderando equipos para alcanzar metas y plazos, y he contribuido al éxito de proyectos clave, destacando mi
-                habilidad para traducir requerimientos técnicos en soluciones prácticas. Poseo una sólida comprensión de los lenguajes de programación,
-                con especial énfasis en Java y Python. Mi historial refleja una dedicación constante al aprendizaje y la adaptación a las últimas tendencias
-                tecnológicas para ofrecer soluciones innovadoras y eficaces.
-            </p>
-        </div>
-    </section>
-
-    <section id="educacion" class="section">
-        <div class="section-content">
-            <h2>Educación</h2>
-            <ul>
-                <li>Escuela Superior de Informatica (ESI) UCLM</li>
-                <li>Grado en ingeniería informática</li>
-                <li>CompTIA Security</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="habilidades" class="section">
-        <div class="section-content">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Conocimientos en pruebas de penetración, implementación de medidas de seguridad, configuración y gestión de firewalls y sistemas de detección de intrusiones.</li>
-                <li>Habilidades blandas: comunicación, resolución de problemas, adaptabilidad, liderazgo, gestión del tiempo y aprendizaje continuo.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="logros" class="section">
-        <div class="section-content">
-            <h2>Logros y Premios</h2>
-            <ul>
-                <li>Participación en competiciones de programación.</li>
-                <li>Trabajo de voluntariado técnico.</li>
-                <li>Certificaciones o cursos adicionales.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="proyectos" class="section">
-        <div class="section-content">
-            <h2>Proyectos</h2>
-            <ul>
-                <li>Herramienta para la automatización del proceso de integración, compilación y publicación de sprints en entornos ágiles.</li>
-                <li>Proyecto realizado junto a la empresa Cojali, que era un sistema de control de versiones.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="certificaciones" class="section">
-        <div class="section-content">
-            <h2>Certificaciones</h2>
-            <ul>
-                <li>LinkedIn Learning</li>
-                <li>Udemy</li>
-                <li>CompTIA Security+</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="idiomas" class="section">
-        <div class="section-content">
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Inglés (nivel B2)</li>
-            </ul>
-        </div>
-    </section>
-    <script src="main.js" defer></script>
 </body>
+
 </html>
+
